@@ -14,17 +14,16 @@
 ***************************************************************************/
 
 const priceList = [10.5, 9.9, 8.9, 4.5];
-let gstPrecent = 8;
+let gstPercent = 8;
 
 function outerFunction(array) {
-    // Add code here
-    
-    return function(gst) {
-        // Add inner function code here
-    }
-console.log('Total price + GST =', outerFunction(priceList)(gstPercent));
-    
+  // Add code here
 
+  return function (gst) {
+    // Add inner function code here
+  };
+  console.log("Total price + GST =", outerFunction(priceList)(gstPercent));
+}
 /*************************************************************************
     Task 2. Manipulate the "queue" array to add "start" and "last" in 
             the suitable places in the array
@@ -36,15 +35,15 @@ function createQueue(fn) {
 }
 
 function doArray(array) {
-    // Add code here to manipulate the array
-    return array;
+  // Add code here to manipulate the array
+  return array;
 }
-const result = ...
-    
+const result = "...";
+
 // Add code here - pass a reference of a function as an argument
 
 console.log(result); // Expected output: ["start", 1, 2, 3, 4, "last"];
-    
+
 /*************************************************************************
     Extra challenge: convert the above solutions to arrow functions    
  **************************************************************************/
